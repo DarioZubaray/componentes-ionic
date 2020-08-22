@@ -22,6 +22,11 @@ export class InicioPage implements OnInit {
       icon: 'beaker-outline',
       name: 'Avatar',
       redirecTo: '/avatar'
+    },
+    {
+      icon: 'radio-button-on-outline',
+      name: 'Botones y router',
+      redirecTo: '/botones'
     }
   ];
 
