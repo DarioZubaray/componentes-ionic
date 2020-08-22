@@ -47,6 +47,16 @@ export class InicioPage implements OnInit {
       icon: 'car-outline',
       name: 'Floating Action Button',
       redirecTo: '/fab'
+    },
+    {
+      icon: 'grid-outline',
+      name: 'Grid',
+      redirecTo: '/grid'
+    },
+    {
+      icon: 'infinite-outline',
+      name: 'Infinite Scroll',
+      redirecTo: '/infinite-scroll'
     }
   ];
 
