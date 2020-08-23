@@ -98,5 +98,10 @@
     "icon": "albums-outline",
     "name": "Slide",
     "redirecTo": "/slide"
+  },
+  {
+    "icon": "cog-outline",
+    "name": "Tabs",
+    "redirecTo": "/tabs/accounts"
   }
 ]
