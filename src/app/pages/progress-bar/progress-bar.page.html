@@ -1,0 +1,21 @@
+<app-header titulo="Progress Bar y range"></app-header>
+
+<ion-content padding>
+
+  <ion-progress-bar [value]="porcentaje" [type]="tipo"></ion-progress-bar>
+
+  <ion-list>
+    <ion-item>
+      <ion-range (ionChange)="cambioRango($event)" value="50" [disabled]="tipo == 'indeterminate'"
+                  min="1" max="100" pint="true" color="tertiary">
+        <ion-label slot="start">0</ion-label>
+        <ion-label slot="end">100</ion-label>
+      </ion-range>
+    </ion-item>
+
+    <ion-item (click)="onCheckClick()">
+      <ion-label>Indeterminado</ion-label>
+      <ion-checkbox color="tertiary"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+</ion-content>
